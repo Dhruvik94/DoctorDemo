@@ -6,8 +6,6 @@ name: Development.js CI
 on:
   push:
     branches: [ development ]
-  pull_request:
-    branches: [ development ]
 
 jobs:
   build:
