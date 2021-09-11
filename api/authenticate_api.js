@@ -172,7 +172,7 @@ module.exports = {
 
                 let passwordPolicy = await sequelize.passwordpolicy.findOne({
                     where: {
-                        id: domain_data.id
+                        domain_id: domain_data.id
                     }
                 });
                 var result = { status: 200, data: passwordPolicy }
